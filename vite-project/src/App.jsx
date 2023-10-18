@@ -3,6 +3,7 @@ import './App.css'
 import { Title, Subtitle, Caption, Label, ListLabel, Body } from '@yaradigitallabs/ahua-react';
 import { Button } from "@yaradigitallabs/ahua-react";
 import { AhuaProvider } from '@yaradigitallabs/ahua-react';
+import '@yaradigitallabs/ahua-react/fonts/noto-sans/font-face.css';
 
 export const App = () => {
   const [count, setCount] = useState(0)
